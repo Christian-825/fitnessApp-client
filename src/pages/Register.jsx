@@ -6,9 +6,6 @@ import UserContext from '../context/UserContext';
 export default function Register() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  const [firstName, setFirstName] = useState('');
-  const [lastName, setLastName] = useState('');
-  const [mobileNo, setMobileNo] = useState('');
   const { setNewToken } = useContext(UserContext);
   const navigate = useNavigate();
 
@@ -29,8 +26,15 @@ export default function Register() {
       setNewToken(loginRes.data.access);
       navigate('/workouts');
     } catch (err) {
-      alert('Registration failed');
+      
+      if (err.response?.status === 400 || err.response?.status === 409) {
+        const errorMessage = err.response.data?.message || err.response.data?.error || 'Email already registered';
+        alert(errorMessage);
+      } else {
+        alert('Registration failed. Please try again later.');
+      }
     }
+
   };
 
   return (
