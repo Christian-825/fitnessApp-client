@@ -27,7 +27,7 @@ export default function Login() {
         
         {/* Left Column - Welcome Message or Image */}
         <div className="col-md-6 d-flex flex-column justify-content-center align-items-center text-light p-5 ">
-          <h1 className="display-4 fw-bold text-center">Welcome!</h1>
+          <h1 className="display-4 fw-bold text-center">Begin Now!</h1>
           <p className="lead text-center">Log in or sign up to start your fitness journey.</p>
         </div>
 
