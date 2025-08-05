@@ -45,7 +45,7 @@ export default function StatusPage() {
       <h2 className="text-primary mb-4">Workout Status</h2>
 
       {workouts.length === 0 ? (
-        <p className="text-muted">No workouts found.</p>
+        <p className="text-light">No workouts found.</p>
       ) : (
         <div className="list-group">
           {workouts.map((workout) => (

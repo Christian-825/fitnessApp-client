@@ -44,7 +44,7 @@ export default function Workouts() {
         </div>
 
         {workouts.length === 0 ? (
-          <div className="text-center text-muted">
+          <div className="text-center text-light">
             <p>No workouts yet.</p>
           </div>
         ) : (
