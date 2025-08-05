@@ -17,11 +17,8 @@ export default function Register() {
 
     try {
       await api.post('/users/register', {
-        firstName,
-        lastName,
         email,
         password,
-        mobileNo,
       });
 
       const loginRes = await api.post('/users/login', {
