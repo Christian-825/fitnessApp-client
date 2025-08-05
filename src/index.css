@@ -1,0 +1,26 @@
+  body {
+    background-image: linear-gradient(to bottom, #000002, #181f3c, #203777, #2052b8, #0d6efd);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    color: white; /* Optional, for light text */
+  }
+  font-family: "Segoe UI", sans-serif;
+}
+
+.card {
+  border-radius: 0.3rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+input, button {
+  border-radius: 0.5 !important;
+}
+
+#home {
+  max-width: 600px;
+}
+
+#add-job {
+  max-width: 600px;
+}
