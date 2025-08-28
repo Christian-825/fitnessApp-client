@@ -1,12 +1,45 @@
-# React + Vite
+# Fitness Tracker App (Client)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Project Overview:**  
+This is the **frontend client** of a Fitness Tracker App, built with **React** and **Vite**. The client allows users to track workouts, view progress, and navigate smoothly through the app using React Router. Axios is used for API communication with the backend (if any).  
 
-Currently, two official plugins are available:
+**Live Demo:** [View on Vercel](https://fitness-app-client-amber.vercel.app/)  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## Table of Contents
+- [Features](#features)  
+- [Technologies Used](#technologies-used)  
+- [Installation](#installation)  
+- [Available Scripts](#available-scripts)  
+- [Folder Structure](#folder-structure)  
+- [Customization](#customization)  
+- [Author](#author)  
+- [License](#license)  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Features
+- Responsive user interface for desktop and mobile.  
+- Navigation through multiple pages using **React Router**.  
+- API communication handled via **Axios**.  
+- Modern React hooks and component-based architecture.  
+- Code linting with **ESLint** for consistency and quality.  
+
+---
+
+## Technologies Used
+- **React 19** – Frontend library for building UI components.  
+- **React Router DOM 7** – Client-side routing.  
+- **Axios** – HTTP client for API requests.  
+- **Vite** – Fast development and build tool.  
+- **ESLint** – JavaScript/React code quality.  
+
+---
+
+## Installation
+
+1. **Clone the repository:**
+```bash
+git clone https://github.com/your-username/fitnessapp-client.git
+cd fitnessapp-client
