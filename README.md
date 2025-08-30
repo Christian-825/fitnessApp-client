@@ -1,7 +1,7 @@
 # Fitness Tracker App (Client)
 
 **Project Overview:**  
-This is the **frontend client** of a Fitness Tracker App, built with **React** and **Vite**. The client allows users to track workouts, view progress, and navigate smoothly through the app using React Router. Axios is used for API communication with the backend (if any).  
+This is the **frontend client** of a Fitness Tracker App, built with **React** and **Vite**. The client allows users to track workouts, view progress, and navigate smoothly through the app using React Router. Axios is used for API communication with the backend.  
 
 **Live Demo:** [View on Vercel](https://fitness-app-client-amber.vercel.app/)  
 
